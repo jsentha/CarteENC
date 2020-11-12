@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4da351a-0e63-4bf5-85cc-e1619d620dae" name="Default Changelist" comment="" />
+    <list default="true" id="b4da351a-0e63-4bf5-85cc-e1619d620dae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +19,9 @@
     <execution>
       <phar pharPath="C:\laragon\bin\composer\composer.phar" interpreterId="48fc3a40-3185-4c7b-8206-3e8cbc732c18" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -134,6 +144,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kBxO8sxD7tu828uHYHTYKxNgVF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -142,7 +153,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -153,11 +164,18 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\carteENC\resources\views" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="art jetstream:install livewire" />
       <command value="art make:model CarteEtudiant -m" />
       <command value="artisan migrate" />
+      <command value="artisan make:controller" />
+      <command value="art make:controller CarteEncController --resource" />
     </option>
   </component>
   <component name="RunManager">
@@ -182,34 +200,50 @@
       <workItem from="1605190012995" duration="246000" />
       <workItem from="1605190533677" duration="1089000" />
       <workItem from="1605192331850" duration="47000" />
-      <workItem from="1605192393102" duration="1685000" />
+      <workItem from="1605192393102" duration="5184000" />
     </task>
+    <task id="LOCAL-00001" summary="lARAVEL">
+      <created>1605194265088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605194265088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lARAVEL" />
+    <option name="LAST_COMMIT_MESSAGE" value="lARAVEL" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="75" y="97" key="CommitChangelistDialog2" timestamp="1605194264401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="75" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605194264401" />
     <state x="279" y="261" key="FileChooserDialogImpl" timestamp="1605190563333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605190563333" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1605194037174">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1605195271473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605194037174" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1605194037174">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605195271473" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1605195271473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605194037174" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1605194037174">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605195271473" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1605195271473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605194037174" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1605194037174">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605195271473" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1605195271473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605194037174" />
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605195271473" />
     <state x="0" y="165" key="SettingsEditor" timestamp="1605190568356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,9 +252,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="220" y="380" key="SymfonyComponentCompositeDataDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605190565415" />
-    <state x="130" y="157" width="672" height="677" key="run.anything.popup" timestamp="1605194036949">
+    <state x="79" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605194300635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="130" y="157" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605194036949" />
+    <state x="79" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605194300635" />
+    <state x="130" y="157" width="672" height="677" key="run.anything.popup" timestamp="1605195271270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="130" y="157" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605195271270" />
   </component>
 </project>
