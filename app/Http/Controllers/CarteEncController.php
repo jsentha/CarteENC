@@ -42,7 +42,12 @@ class CarteEncController extends Controller
         $carteEtudiant->numeroTelephone=$request->get('numeroTelephoneFormulaire');
         $date=date_create($request->get('dateEntreeENC'));
         $format=date_format($date,"Y-m-d");
-        $carteEtudiant->dateEntreeENC=strtotime($format);
+/*        $carteEtudiant->dateEntreeENC=strtotime($format);*/
+        $carteEtudiant->dateEntreeENC=$format;
+
+
+        //dd($carteEtudiant) ;
+
         $carteEtudiant->save();
 
         return redirect('demandeCarte')->with('success','Une nouvelle demmande a été enregistrée');

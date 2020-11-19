@@ -34,12 +34,12 @@
 
       @foreach($cartesEtudiant as $carteEtudiant)
       @php
-        $date=date('Y-m-d', $carteEtudiant['dateEntreeEnc']);
+        //$date=date('Y-m-d', $carteEtudiant['dateEntreeEnc']);
         @endphp
       <tr>
         <td>{{$carteEtudiant['id']}}</td>
         <td>{{$carteEtudiant['nomEtudiant']}}</td>
-        <td>{{$date}}</td>
+        <td>{{$carteEtudiant['dateEntreeENC']}}</td>
         <td>{{$carteEtudiant['email']}}</td>
         <td>{{$carteEtudiant['numeroTelephone']}}</td>
 
