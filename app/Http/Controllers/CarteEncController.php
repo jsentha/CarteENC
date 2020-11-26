@@ -36,12 +36,26 @@ class CarteEncController extends Controller
      */
     public function store(Request $request)
     {
+        // Fichier UPLOAD
+        $request->validate([
+            'unFichier' => 'required|file|max:8192'
+        ]);
+        $nomFichierAttache=time().request()->unFichier->getClientOriginalName();
+        $request->unFichier->storeAs('fichiers', $nomFichierAttache);
+
+
+
         $carteEtudiant = new \App\Models\CarteEtudiant;
         $carteEtudiant->nomEtudiant=$request->get('nomEtudiantFormulaire');
         $carteEtudiant->email=$request->get('email');
         $carteEtudiant->numeroTelephone=$request->get('numeroTelephoneFormulaire');
         $date=date_create($request->get('dateEntreeENC'));
         $format=date_format($date,"Y-m-d");
+
+        $carteEtudiant->unFichier=$nomFichierAttache;
+        $carteEtudiant->section=$request->get('section');
+
+
 /*        $carteEtudiant->dateEntreeENC=strtotime($format);*/
         $carteEtudiant->dateEntreeENC=$format;
 
@@ -74,7 +88,7 @@ class CarteEncController extends Controller
     {
         //
         $carteEtudiant=\App\Models\CarteEtudiant::find($id);
-        return view('edit',compact('carteEtudiant',''));
+        return view('edit',compact('carteEtudiant','id'));
     }
 
     /**
@@ -91,6 +105,7 @@ class CarteEncController extends Controller
         $carteEtudiant->nomEtudiant=$request->get('nom');
         $carteEtudiant->email=$request->get('email');
         $carteEtudiant->numeroTelephone=$request->get('number');
+        $carteEtudiant->section=$request->get('section');
         $carteEtudiant->save();
         return redirect ('demandeCarte');
 

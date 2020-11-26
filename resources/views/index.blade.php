@@ -27,6 +27,7 @@
         <th>Date entrée ENC</th>
         <th>Email</th>
         <th>Numéro de téléphone</th>
+        <th>section</th>
         <th colspan="2">Action</th>
       </tr>
     </thead>
@@ -42,6 +43,7 @@
         <td>{{$carteEtudiant['dateEntreeENC']}}</td>
         <td>{{$carteEtudiant['email']}}</td>
         <td>{{$carteEtudiant['numeroTelephone']}}</td>
+          <td>{{$carteEtudiant['section']}}</td>
 
         <td><a href="{{action('CarteEncController@edit', $carteEtudiant['id'])}}" class="btn btn-warning">Modifier</a></td>
         <td>

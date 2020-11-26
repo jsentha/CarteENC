@@ -31,6 +31,7 @@
               <input type="text" class="form-control" name="email">
             </div>
           </div>
+
         <div class="row">
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
@@ -39,7 +40,15 @@
             </div>
           </div>
 
-        <div class="row">
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="form-group col-md-4">
+                  <input type="file" name="unFichier" id="fileUpload">
+              </div>
+          </div>
+
+
+          <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4">
             <strong>Date entrée ENC: </strong>
@@ -47,7 +56,18 @@
          </div>
         </div>
 
-        <div class="row">
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="form-group col-md-4">
+                  <label> Section: </label>
+                      <select name="section">
+                          <option value="SIO SLAM">SIO SLAM</option>
+                          <option value="SIO SISR">SIO SISR</option>
+                      </select>
+              </div>
+          </div>
+
+          <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4" style="margin-top:60px">
             <button type="submit" class="btn btn-success">Submit</button>

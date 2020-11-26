@@ -38,6 +38,17 @@
             </div>
           </div>
 
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="form-group col-md-4">
+                    <label> Section: </label>
+                    <select name="section">
+                        <option value="SIO SLAM">SIO SLAM</option>
+                        <option value="SIO SISR">SIO SISR</option>
+                    </select>
+                </div>
+            </div>
+
         <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4" style="margin-top:60px">
