@@ -22,6 +22,9 @@ class CreateCarteEtudiantsTable extends Migration
             $table->string('section');
             $table->string('unFichier');
             $table->timestamps();
+
+            // Etape 2 migration
+            $table->foreignId('user_id');
         });
     }
 
