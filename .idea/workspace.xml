@@ -4,9 +4,9 @@
     <list default="true" id="b4da351a-0e63-4bf5-85cc-e1619d620dae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CarteEtudiant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CarteEtudiant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_12_150441_create_carte_etudiants_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_12_150441_create_carte_etudiants_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BienCuisiner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ENC.PWA" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,7 +205,12 @@
       <workItem from="1605789530240" duration="8434000" />
       <workItem from="1606116967733" duration="49000" />
       <workItem from="1606393954915" duration="13458000" />
-      <workItem from="1606999122305" duration="10999000" />
+      <workItem from="1606999122305" duration="11049000" />
+      <workItem from="1608027012958" duration="43000" />
+      <workItem from="1615472177607" duration="3861000" />
+      <workItem from="1616070917873" duration="1615000" />
+      <workItem from="1616684359213" duration="3662000" />
+      <workItem from="1617277609181" duration="4036000" />
     </task>
     <task id="LOCAL-00001" summary="lARAVEL">
       <created>1605194265088</created>
@@ -249,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606407564895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LARAVEL">
+      <created>1607012371621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607012371621</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,45 +273,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="LARAVEL" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="75" y="97" key="CommitChangelistDialog2" timestamp="1606407564189">
+    <state x="279" y="261" key="FileChooserDialogImpl" timestamp="1616071275905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="75" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606407564189" />
-    <state x="279" y="261" key="FileChooserDialogImpl" timestamp="1606116998998">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="279" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606116998998" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1606408092842">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606408092842" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1606408092842">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606408092842" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1606408092842">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606408092842" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1606408092842">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606408092842" />
-    <state x="0" y="165" key="SettingsEditor" timestamp="1605190568356">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605190568356" />
-    <state x="220" y="380" key="SymfonyComponentCompositeDataDialog" timestamp="1605190565415">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="220" y="380" key="SymfonyComponentCompositeDataDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605190565415" />
-    <state x="79" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606407597084">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="79" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606407597084" />
-    <state x="130" y="157" width="672" height="677" key="run.anything.popup" timestamp="1607008159672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="130" y="157" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607008159672" />
+    <state x="279" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616071275905" />
   </component>
 </project>

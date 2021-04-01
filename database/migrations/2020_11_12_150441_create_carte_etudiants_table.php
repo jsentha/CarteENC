@@ -18,7 +18,7 @@ class CreateCarteEtudiantsTable extends Migration
             $table->string('nomEtudiant');
             $table->date('dateEntreeENC');
             $table->integer('numeroTelephone');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('section');
             $table->string('unFichier');
             $table->timestamps();

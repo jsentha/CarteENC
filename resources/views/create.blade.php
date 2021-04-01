@@ -13,8 +13,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
   </head>
   <body>
+
+  @if (\Session::has('error'))
+      <div class="alert alert-success">
+          <p>{{ \Session::get('error') }}</p>
+      </div><br />
+  @endif
+
     <div class="container">
-      <h2>Application de demande de carte étudiant ENC</h2><br/>
+        <h2><center> Application de demande de carte étudiant ENC </center></h2><br/>
       <form method="post" action="{{url('demandeCarte')}}" enctype="multipart/form-data">
         @csrf
         <div class="row">

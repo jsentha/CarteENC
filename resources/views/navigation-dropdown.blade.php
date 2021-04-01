@@ -50,7 +50,11 @@
                         </x-jet-dropdown-link>
 
                         <x-jet-dropdown-link href="{{ route('demandeCarte.index') }}">
-                            {{ __('demandeCarte') }}
+                            {{ __('DemandeCarte') }}
+                        </x-jet-dropdown-link>
+
+                        <x-jet-dropdown-link href="{{ route('demandeCarte.create') }}">
+                            {{ __('Créer une carte ') }}
                         </x-jet-dropdown-link>
 
                         @if (Laravel\Jetstream\Jetstream::hasApiFeatures())

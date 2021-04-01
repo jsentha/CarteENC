@@ -51,7 +51,11 @@ class CarteEncController extends Controller
         $nomFichierAttache=time().request()->unFichier->getClientOriginalName();
         $request->unFichier->storeAs('fichiers', $nomFichierAttache);
 
+        // Contrainte d'intégriter pour pas avoir de doublon
+        if(\App\Models\CarteEtudiant :: where ('email','=',$request->get('email'))->exists()){
 
+            return redirect('demandeCarte/create')->with('error','Attention l\'adresse mail existe déjaà');
+        }
 
         $carteEtudiant = new \App\Models\CarteEtudiant;
         $carteEtudiant->nomEtudiant=$request->get('nomEtudiantFormulaire');
@@ -64,15 +68,15 @@ class CarteEncController extends Controller
         $carteEtudiant->section=$request->get('section');
 
 
-/*        $carteEtudiant->dateEntreeENC=strtotime($format);*/
+/*      $carteEtudiant->dateEntreeENC=strtotime($format);*/
         $carteEtudiant->dateEntreeENC=$format;
 
 
         //dd($carteEtudiant) ;
-
         //$carteEtudiant->save();
 
-        Auth::user()->carteEtudiant()->save($carteEtudiant);
+        Auth::user()->carteEtudiant()->save($carteEtudiant);// enregistre de la base de donnée
+
 
         return redirect('demandeCarte')->with('success','Une nouvelle demmande a été enregistrée');
     }
