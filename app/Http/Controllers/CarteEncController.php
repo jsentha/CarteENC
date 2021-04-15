@@ -44,7 +44,7 @@ class CarteEncController extends Controller
      */
     public function store(Request $request)
     {
-        // Fichier UPLOAD
+        // Fichier UPLOAD , Obligatoire
         $request->validate([
             'unFichier' => 'required|file|max:8192'
         ]);
@@ -54,7 +54,7 @@ class CarteEncController extends Controller
         // Contrainte d'intégriter pour pas avoir de doublon
         if(\App\Models\CarteEtudiant :: where ('email','=',$request->get('email'))->exists()){
 
-            return redirect('demandeCarte/create')->with('error','Attention l\'adresse mail existe déjaà');
+            return redirect('demandeCarte/create')->with('error','Attention l\'adresse mail existe déjà');
         }
 
         $carteEtudiant = new \App\Models\CarteEtudiant;

@@ -4,7 +4,6 @@
     <list default="true" id="b4da351a-0e63-4bf5-85cc-e1619d620dae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_12_150441_create_carte_etudiants_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_12_150441_create_carte_etudiants_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
     </list>
@@ -210,7 +209,8 @@
       <workItem from="1615472177607" duration="3861000" />
       <workItem from="1616070917873" duration="1615000" />
       <workItem from="1616684359213" duration="3662000" />
-      <workItem from="1617277609181" duration="4036000" />
+      <workItem from="1617277609181" duration="4108000" />
+      <workItem from="1618469841022" duration="6900000" />
     </task>
     <task id="LOCAL-00001" summary="lARAVEL">
       <created>1605194265088</created>
@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607012371621</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LARAVEL">
+      <created>1617289474840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617289474840</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,9 +280,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="LARAVEL" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1617289474239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617289474239" />
     <state x="279" y="261" key="FileChooserDialogImpl" timestamp="1616071275905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616071275905" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617289518886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617289518886" />
   </component>
 </project>

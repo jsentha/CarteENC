@@ -50,7 +50,7 @@
                         </x-jet-dropdown-link>
 
                         <x-jet-dropdown-link href="{{ route('demandeCarte.index') }}">
-                            {{ __('DemandeCarte') }}
+                            {{ __('ListeCartes') }}
                         </x-jet-dropdown-link>
 
                         <x-jet-dropdown-link href="{{ route('demandeCarte.create') }}">
