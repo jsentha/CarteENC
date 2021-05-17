@@ -59,7 +59,7 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-
+    // Utilisateur peut avoir plusieur Cartes
      public function carteEtudiant (){
          return $this->hasMany('App\Models\CarteEtudiant');
 

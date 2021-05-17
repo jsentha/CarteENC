@@ -70,6 +70,8 @@
                       <select name="section">
                           <option value="SIO SLAM">SIO SLAM</option>
                           <option value="SIO SISR">SIO SISR</option>
+                          <option value="SIO marketing">Assistant marketing </option>
+
                       </select>
               </div>
           </div>

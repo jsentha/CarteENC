@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b4da351a-0e63-4bf5-85cc-e1619d620dae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CarteEtudiant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CarteEtudiant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +176,7 @@
       <command value="artisan make:controller" />
       <command value="art make:controller CarteEncController --resource" />
       <command value="artisan migrate:fresh" />
+      <command value="artisan migrate:refresh" />
     </option>
   </component>
   <component name="RunManager">
@@ -210,7 +212,15 @@
       <workItem from="1616070917873" duration="1615000" />
       <workItem from="1616684359213" duration="3662000" />
       <workItem from="1617277609181" duration="4108000" />
-      <workItem from="1618469841022" duration="6900000" />
+      <workItem from="1618469841022" duration="7009000" />
+      <workItem from="1619713089059" duration="397000" />
+      <workItem from="1620124001277" duration="594000" />
+      <workItem from="1620998042648" duration="5470000" />
+      <workItem from="1621017274154" duration="674000" />
+      <workItem from="1621087156366" duration="4533000" />
+      <workItem from="1621112065271" duration="1709000" />
+      <workItem from="1621185742016" duration="1704000" />
+      <workItem from="1621250313780" duration="6072000" />
     </task>
     <task id="LOCAL-00001" summary="lARAVEL">
       <created>1605194265088</created>
@@ -268,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617289474840</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LARAVEL">
+      <created>1618481814367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618481814367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,17 +297,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="LARAVEL" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1617289474239">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1618481813599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617289474239" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618481813599" />
     <state x="279" y="261" key="FileChooserDialogImpl" timestamp="1616071275905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616071275905" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617289518886">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1621260205961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617289518886" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621260205961" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1621260205961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621260205961" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1621260205960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621260205960" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1621260205961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621260205961" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1618481823767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618481823767" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1621258856060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621258856060" />
   </component>
 </project>
